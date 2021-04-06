@@ -284,12 +284,17 @@
 }
 
 @media (min-width: 1280px) {
-  container {
+  .products {
+    padding-bottom: 119px;
+  }
+
+  .products > .container {
     width: 1280px;
     padding: 0 154px;
   }
 
   .products-list > li {
+    margin-bottom: 0;
     padding-top: 163px;
     padding-bottom: 50px;
     width: 330px;
@@ -335,7 +340,7 @@
   .products-description {
     font-size: 16px;
     line-height: 1.75;
-    margin-bottom: 50px;
+    margin-bottom: 62px;
     max-width: 241px;
   }
 
