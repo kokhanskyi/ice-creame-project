@@ -6,7 +6,7 @@
   background-image: url('../../src/images/desktop/about/desk-about-bg.png');
   background-repeat: no-repeat;
   background-size: 100% auto;
-  padding-top: 127px;
+  padding-top: 120px;
 }
 .about-title-additional {
   font-family: 'Titan One';
@@ -31,12 +31,9 @@
   padding: 5px 35px;
   text-align: center;
 }
-.about-contant-container {
-  margin: 21px;
-}
+
 .about-content-image {
   width: 100%;
-  padding-bottom: 40px;
 }
 .about-section {
   background-image: url('../../src/images/mobile/about/desk-about-bg.svg');
@@ -103,10 +100,6 @@
 // Tablet
 
 @media (min-width: 768px) {
-  // .container {
-  //   width: 768px;
-  //   padding: 0 34px;
-  // }
   .about-section {
     background-image: none;
   }
@@ -114,11 +107,11 @@
     display: flex;
   }
   .about-content-image {
-    width: 45%;
+    width: 48%;
     height: 45%;
   }
   .about-content-list {
-    margin: 50px 20px;
+    margin: 36px 20px 0px 50px;
     background-image: none;
     width: 50%;
   }
@@ -139,15 +132,11 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  // .container {
-  //   width: 1280px;
-  //   padding: 0 46px;
-  // }
   .about-section {
     background-image: url('../../src/images/desktop/about/desk-about-bg.png');
     background-repeat: no-repeat;
     background-size: 100% auto;
-    background-position-y: 336px;
+    background-position-y: 120px;
   }
   .about-contant-container {
     display: flex;
