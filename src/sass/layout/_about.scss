@@ -6,7 +6,7 @@
   background-image: url('../../src/images/desktop/about/desk-about-bg.png');
   background-repeat: no-repeat;
   background-size: 100% auto;
-  background-position-y: 714px;
+  background-position-y: 92%;
   padding-top: 120px;
   // background-image: url('../../src/images/mobile/about/desk-about-bg.svg');
 }
@@ -16,7 +16,7 @@
   font-size: 18px;
   line-height: 1em;
   color: var(--secondary-accent);
-  padding-bottom: 15px;
+  margin-bottom: 15px;
   display: flex;
   justify-content: center;
 }
@@ -27,10 +27,9 @@
   line-height: 1.381em;
   letter-spacing: 0.04em;
   color: var(--accent-color);
-  padding-bottom: 26px;
+  margin-bottom: 26px;
   display: flex;
   justify-content: center;
-  padding: 5px 35px;
   text-align: center;
 }
 
@@ -49,12 +48,14 @@
   display: flex;
   line-height: 162%;
   color: var(--primary-black-color);
+  margin-bottom: 30px;
 }
 .about-description-secondary {
   font-family: 'DM Sans';
   font-size: 12px;
   display: flex;
   line-height: 162%;
+  margin-bottom: 30px;
   // padding: 5px 35px;
 }
 
@@ -63,6 +64,7 @@
   font-size: 12px;
   display: flex;
   line-height: 162%;
+  margin-bottom: 30px;
 }
 
 .primary-btn {
@@ -113,9 +115,9 @@
     background-image: none;
     width: 50%;
   }
-  .about-content-list-item {
-    margin-bottom: 30px;
-  }
+  // .about-content-list-item {
+  //   margin-bottom: 30px;
+  // }
   .about-content-list-button {
     padding-top: 50px;
   }
@@ -134,7 +136,7 @@
     background-image: url('../../src/images/desktop/about/desk-about-bg.png');
     background-repeat: no-repeat;
     background-size: 100% auto;
-    background-position-y: 304px;
+    background-position-y: 140%;
   }
   .about-contant-container {
     display: flex;
