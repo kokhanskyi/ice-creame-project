@@ -220,35 +220,29 @@
 
     <section class="gallery">
     <div class="container gallery-container">
-        <picture class="gallery-image mobile-gallery">
-            <source srcset="/m-about-gallery.4717fc86.png 1x,/m-about-gallery@2x.399801a1.png 2x" type="image" media="(min-width: 600px)">
-            <img src="/m-about-gallery.4717fc86.png" alt="Gallery">
-        </picture>
-        <picture class="gallery-image tablet-gallery">
-            <source srcset="/tablet-about-gallery.de36775b.png 1x,/tablet-about-gallery@2x.faf7d32e.png 2x" type="image" media="">
-            <img src="/tablet-about-gallery.de36775b.png" alt="Gallery">
-        </picture>
-        <picture class="gallery-image desktop-gallery">
-            <source srcset="/desk-about-gallery.1ac80a77.png 1x,/desk-about-gallery@2x.3be947ac.png 2x" type="image" media="">
-            <img src="/desk-about-gallery.1ac80a77.png" alt="Gallery">
+        <h2 class="visually-hidden"> Gallery</h2>
+        <picture class="gallery-image">
+            <source class="desktop-gallery" srcset="/desk-about-gallery.1ac80a77.png 1x,/desk-about-gallery@2x.3be947ac.png 2x" media="(min-width: 1280px)">
+            
+            <source class="tablet-gallery" srcset="/tablet-about-gallery.de36775b.png 1x,/tablet-about-gallery@2x.faf7d32e.png 2x" media="(min-width: 768px)">
+
+            <source class="" srcset="/m-about-gallery.4717fc86.png 1x,/m-about-gallery@2x.399801a1.png 2x" media="(min-width: 280px)">
+            <img class="desktop-gallery" src="/desk-about-gallery.1ac80a77.png" alt="Gallery">
         </picture>
     </div>
 </section>
 
     <section class="customer">
     <div class="container">
-        <picture class="customer-image desktop-face">
-            <source srcset="/desk-comment-1.99121bcc.png 1x,/desk-comment-1@2x.5cb00620.png 2x" type="image" media="">
-            <img src="/desk-comment-1.99121bcc.png" alt="Girl" width="85">
+        <h2 class="visually-hidden">Customer reviews</h2>
+        <picture class="customer-image">
+            <source class="desktop-face" srcset="/desk-comment-1.99121bcc.png 1x,/desk-comment-1@2x.5cb00620.png 2x" media="(min-width:1280px)">
+            
+            <source class="tablet-face" srcset="/tablet-comment-1.2c205a69.png 1x,/tablet-comment-1@2x.1c6cb676.png 2x" media="(min-width:768px)">
+            
+            <source class="mobile-face" srcset="/m-comment-1.15fd6943.png 1x,/m-comment-1@2x.d5b676e4.png 2x" media="(min-width:280px)">
+            <img class="mobile-face" src="/m-comment-1.15fd6943.png" alt="Girl" width="85">
         </picture>
-        <picture class="customer-image tablet-face">
-            <source srcset="/tablet-comment-1.2c205a69.png 1x,/tablet-comment-1@2x.1c6cb676.png 2x" type="image" mediamobile="">
-            <img src="/tablet-comment-1.2c205a69.png" alt="Girl" width="85">
-        </picture>
-        <picture class="customer-image mobile-face">
-            <s srcset="./images/mobile/customer-reviews/m-comment-1.png 1x, ./images/mobile/customer-reviews/m-comment-1@2x.png 2x" type="image" media="">
-            <img src="/m-comment-1.15fd6943.png" alt="Girl" width="85">
-        </s></picture>
         <div class="customer-box">
             <svg class="customer-quotes">
                 <use href="/sprite.5ec50489.svg#icon-quotes"></use>
@@ -276,6 +270,7 @@
             </li>
         </ul>
         <p class="customer-name">Emily, Los Angeles</p>
+
         <ul class="customer-home">
             <li class="customer-home-list">
                 <svg class="customer-icon-home home-one">
@@ -293,7 +288,6 @@
                 </svg>
             </li>
         </ul>
-
     </div>
 </section>
     <div id="contacts" class="contacts-section-background">
@@ -363,7 +357,7 @@
     </div>
     <ul class="footer-social-list">
         <li class="footer-social-list-item">
-            <a href="https://github.com/" _blank="" class="footer-social-list-link" target="_blank">
+            <a href="https://github.com/" class="footer-social-list-link" target="_blank">
                 <svg class="footer-social-list-icon">
                     <use href="/sprite.5ec50489.svg#icon-github"></use>
                 </svg>
