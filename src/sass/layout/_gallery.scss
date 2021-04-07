@@ -6,25 +6,25 @@
   padding: 0;
 }
 
-.gallery-image.tablet-gallery,
-.gallery-image.desktop-gallery {
+.tablet-gallery,
+.desktop-gallery {
   display: none;
 }
 
 @media screen and (min-width: 768px) {
-  .gallery-image.mobile-gallery {
+  .mobile-gallery {
     display: none;
   }
-  .gallery-image.tablet-gallery {
+  .tablet-gallery {
     display: inline;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .gallery-image.desktop-gallery {
+  .desktop-gallery {
     display: inline;
   }
-  .gallery-image.tablet-gallery {
+  .tablet-gallery {
     display: none;
   }
 }
