@@ -737,6 +737,10 @@ body {
     padding: 12px 16px;
   }
 }
+.products {
+  padding-bottom: 130px;
+}
+
 .products-list {
   display: flex;
   flex-wrap: wrap;
@@ -767,32 +771,32 @@ body {
   padding-top: 175px;
 }
 
-.main-title {
-  margin-top: 15px;
-  margin-bottom: 144px;
-}
-
 .products {
   padding-top: 121px;
 }
 
-.products-label {
-  display: block;
-  color: #ffa5ba;
+.main-title {
   font-family: Titan One;
-  text-align: center;
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.16;
+  text-align: center;
   text-transform: uppercase;
+  margin-bottom: 144px;
+  color: var(--secondary-accent);
+  display: flex;
+  flex-direction: column;
 }
 
-.main-title {
-  color: var(--accent-color);
+.products-span {
+  margin-top: 15px;
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
   font-size: 34px;
-  line-height: 1.14;
+  line-height: 1.15;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  color: #d41443;
 }
 
 .products-list h3 {
@@ -864,7 +868,6 @@ body {
   background-color: var(--background-green);
   width: 210px;
   width: 100%;
-  margin-bottom: 130px;
   position: relative;
 }
 
@@ -956,7 +959,21 @@ body {
   }
 
   .main-title {
-    margin-bottom: 150px;
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .products-span {
+    font-size: 48px;
+    line-height: 1.15;
+  }
+
+  .products-item-cream {
+    margin-bottom: 0;
+  }
+
+  .products-item-coffee {
+    margin-bottom: 0;
   }
 
   .products-item-cream:before {
@@ -992,19 +1009,6 @@ body {
     margin: 0 auto;
   }
 
-  .products-label {
-    font-size: 26px;
-    line-height: 1.15;
-    text-transform: uppercase;
-  }
-
-  .main-title {
-    font-size: 48px;
-    line-height: 1.14;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-  }
-
   .products-description {
     font-weight: bold;
     font-size: 14px;
@@ -1032,7 +1036,16 @@ body {
   }
 
   .main-title {
+    font-size: 30px;
+    line-height: 1.13;
+    letter-spacing: 0.04em;
     margin-bottom: 259px;
+  }
+
+  .products-span {
+    font-size: 58px;
+    line-height: 1.14;
+    letter-spacing: 0.06em;
   }
 
   .products-item-cream:before {
@@ -1080,22 +1093,10 @@ body {
     padding-bottom: 50px;
   }
 
-  .products-label {
-    font-size: 30px;
-    line-height: 1.13;
-    letter-spacing: 0.04em;
-  }
-
   .products-list h3 {
     font-size: 30px;
     line-height: 1.13;
     letter-spacing: 0.04em;
-  }
-
-  .main-title {
-    font-size: 58px;
-    line-height: 1.14;
-    letter-spacing: 0.06em;
   }
 }
 .about-section {
@@ -1106,6 +1107,7 @@ body {
   background-image: url("/desk-about-bg.3c7d8653.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
+  background-position-y: 714px;
   padding-top: 120px;
 }
 
@@ -1138,15 +1140,8 @@ body {
   width: 100%;
 }
 
-.about-section {
-  background-image: url("/desk-about-bg.7bbb19ea.svg");
-  background-repeat: no-repeat;
-  background-position-y: 698px;
-  background-size: 100% auto;
-}
-
 .about-content-list {
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 .about-content-list-item {
@@ -1155,6 +1150,7 @@ body {
 
 .about-description-primary {
   font-family: "DM Sans";
+  font-size: 12px;
   display: flex;
   line-height: 162%;
   color: var(--primary-black-color);
@@ -1162,12 +1158,14 @@ body {
 
 .about-description-secondary {
   font-family: "DM Sans";
+  font-size: 12px;
   display: flex;
   line-height: 162%;
 }
 
 .about-description-additional {
   font-family: "DM Sans";
+  font-size: 12px;
   display: flex;
   line-height: 162%;
 }
@@ -1212,7 +1210,7 @@ body {
   }
 
   .about-content-image {
-    width: 48%;
+    width: 45%;
     height: 45%;
   }
 
@@ -1239,15 +1237,17 @@ body {
     background-image: url("/desk-about-bg.3c7d8653.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
-    background-position-y: 120px;
+    background-position-y: 304px;
   }
 
   .about-contant-container {
     display: flex;
+    margin-left: 73px;
   }
 
   .about-content-list {
-    margin: 60px 60px 0px 74px;
+    margin: 60px 60px 0px 70px;
+    width: 41%;
   }
 
   .about-title-additional {
@@ -1264,6 +1264,10 @@ body {
 
   .about-description-primary {
     font-size: 16px;
+  }
+
+  .about-description-secondary, .about-description-additional {
+    font-size: 14px;
   }
 }
 .advantages {
