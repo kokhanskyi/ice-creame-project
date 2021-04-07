@@ -1403,29 +1403,6 @@ body {
   padding: 0;
 }
 
-.tablet-gallery,
-.desktop-gallery {
-  display: none;
-}
-
-@media screen and (min-width: 768px) {
-  .mobile-gallery {
-    display: none;
-  }
-
-  .tablet-gallery {
-    display: inline;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .desktop-gallery {
-    display: inline;
-  }
-
-  .tablet-gallery {
-    display: none;
-  }
-}
 .customer {
   margin-top: 80px;
 }
@@ -1445,29 +1422,6 @@ body {
   justify-content: center;
 }
 
-.desktop-face,
-.tablet-face {
-  display: none;
-}
-
-@media screen and (min-width: 768px) {
-  .tablet-face {
-    display: flex;
-  }
-
-  .mobile-face {
-    display: none;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .desktop-face {
-    display: flex;
-  }
-
-  .tablet-face {
-    display: none;
-  }
-}
 .customer-box {
   position: relative;
   margin-top: 29px;

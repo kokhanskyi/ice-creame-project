@@ -5,26 +5,3 @@
 .gallery-container {
   padding: 0;
 }
-
-.tablet-gallery,
-.desktop-gallery {
-  display: none;
-}
-
-@media screen and (min-width: 768px) {
-  .mobile-gallery {
-    display: none;
-  }
-  .tablet-gallery {
-    display: inline;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .desktop-gallery {
-    display: inline;
-  }
-  .tablet-gallery {
-    display: none;
-  }
-}
